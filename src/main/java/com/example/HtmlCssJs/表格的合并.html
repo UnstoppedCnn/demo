@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<h1>rowspan与colspan分别是合并列和行，th标签也可以做单元格，并且th中的文字会加粗并且居中</h1>
+<table align="center" border="1px" width="300px">
+  <tr>
+    <th>name</th>
+    <th>age</th>
+    <th>sex</th>
+  </tr>
+  <tr align="center">
+    <td colspan="2">单元格</td>
+<!--    <td>单元格</td>-->
+    <td rowspan="3">单元格x</td>
+  </tr>
+  <tr align="center">
+    <td>单元格</td>
+    <td>单元格</td>
+<!--    <td>单元格x</td>-->
+  </tr>
+  <tr align="center">
+    <td>单元格</td>
+    <td>单元格</td>
+<!--    <td>单元格</td>-->
+  </tr>
+</table>
 </body>
 </html>

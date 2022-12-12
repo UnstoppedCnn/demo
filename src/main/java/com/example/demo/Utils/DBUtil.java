@@ -1,4 +1,4 @@
-package com.utils;
+package com.example.demo.Utils;
 
 
 import java.sql.*;
@@ -12,6 +12,10 @@ public class DBUtil {
     private static final String url = bundle.getString("url");
     private static final String user = bundle.getString("user");
     private static final String password = bundle.getString("password");
+
+    public static void main(String[] args) {
+        System.out.println(url);
+    }
 
 
     static {
